@@ -1,0 +1,22 @@
+{
+  "name": "frontend-algorithm",
+  "version": "1.0.0",
+  "description": "前端应该掌握的算法",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sudongyuer/frontend-algorithm.git"
+  },
+  "keywords": [
+    "algorithm"
+  ],
+  "author": "sudongyu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sudongyuer/frontend-algorithm/issues"
+  },
+  "homepage": "https://github.com/sudongyuer/frontend-algorithm#readme"
+}
