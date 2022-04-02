@@ -28,9 +28,9 @@ export default defineConfig({
         link: 'https://github.com/sudongyuer'
       }
     ],
-
+    // @ts-ignore
     sidebar: {
-      // '/guide/': getGuideSidebar(),
+      '/coding-interviews/': getArrayItemsSidebar(),
       '/': getArraySidebar()
     }
   }
@@ -41,8 +41,23 @@ function getArraySidebar() {
     {text: '开始探索前端的算法之旅吧🌈',},
     {
       text: '剑指Offer',
+      link:"/coding-interviews/「LeetCode」剑指Offer-03数组中重复的数字⚡️",
+    },
+    {
+      text: '链表',
+    }
+  ]
+}
+
+function getArrayItemsSidebar() {
+  return [
+    {text: '开始探索前端的算法之旅吧🌈',},
+    {
+      text: '剑指Offer',
+      link:"/",
       children: [
-        { text: '「LeetCode」剑指Offer-03数组中重复的数字⚡️', link: '/coding-interviews/「LeetCode」剑指Offer-03数组中重复的数字⚡️' }
+        { text: '「LeetCode」剑指Offer-03数组中重复的数字⚡️', link: '/coding-interviews/「LeetCode」剑指Offer-03数组中重复的数字⚡️' },
+        { text: '「LeetCode」剑指Offer-04二维数组中的查找⚡️', link: '/coding-interviews/「LeetCode」剑指Offer-04二维数组中的查找⚡️' }
       ]
     },
     {
