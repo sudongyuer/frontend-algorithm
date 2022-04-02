@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/sudongyuer/frontend-algorithm/issues"
   },
-  "homepage": "https://github.com/sudongyuer/frontend-algorithm#readme"
+  "homepage": "https://github.com/sudongyuer/frontend-algorithm#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "vitepress": "^0.22.3"
+  }
 }
