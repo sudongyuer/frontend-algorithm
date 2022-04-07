@@ -57,7 +57,8 @@ function getArrayItemsSidebar() {
       link:"/",
       children: [
         { text: '「LeetCode」剑指Offer-03数组中重复的数字⚡️', link: '/coding-interviews/「LeetCode」剑指Offer-03数组中重复的数字⚡️' },
-        { text: '「LeetCode」剑指Offer-04二维数组中的查找⚡️', link: '/coding-interviews/「LeetCode」剑指Offer-04二维数组中的查找⚡️' }
+        { text: '「LeetCode」剑指Offer-04二维数组中的查找⚡️', link: '/coding-interviews/「LeetCode」剑指Offer-04二维数组中的查找⚡️' },
+        { text: '「LeetCode」剑指Offer-05替代空格⚡️', link: '/coding-interviews/「LeetCode」剑指Offer-05替代空格⚡️' }
       ]
     },
     {
