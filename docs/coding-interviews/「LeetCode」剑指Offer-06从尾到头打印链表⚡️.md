@@ -1,6 +1,6 @@
 # 「LeetCode」剑指Offer-06从尾到头打印链表⚡️
 
-![Untitled - Made with DesignCap](/Users/sudongyu/Pictures/掘金文章图片/Untitled - Made with DesignCap.jpg)
+![Untitled - Made with DesignCap](https://tva1.sinaimg.cn/large/e6c9d24egy1h14ttmhqfbj21hc0u0793.jpg)
 
 > 大家好，我是速冻鱼🐟，一条水系前端💦，喜欢花里胡哨💐，持续沙雕🌲<br/>
 > 欢迎小伙伴们加我微信：`sudongyuer`拉你进群，一起讨论，期待与大家共同成长🥂
