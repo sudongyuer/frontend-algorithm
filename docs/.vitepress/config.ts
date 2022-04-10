@@ -22,7 +22,7 @@ export default defineConfig({
     },
 
     nav: [
-      { text: 'Start', link: '/guide', activeMatch: '^/$|^/guide/' },
+      { text: 'Start', link: '/', activeMatch: '^/$|^/guide/' },
       {
         text: 'About ME',
         link: 'https://github.com/sudongyuer'
@@ -30,7 +30,6 @@ export default defineConfig({
     ],
     // @ts-ignore
     sidebar: {
-      '/coding-interviews/': getArrayItemsSidebar(),
       '/': getArraySidebar()
     }
   }
@@ -42,29 +41,19 @@ function getArraySidebar() {
     {
       text: '剑指Offer',
       link:"/coding-interviews/「LeetCode」剑指Offer-03数组中重复的数字⚡️",
-    },
-    {
-      text: '链表',
-    }
-  ]
-}
-
-function getArrayItemsSidebar() {
-  return [
-    {text: '开始探索前端的算法之旅吧🌈',},
-    {
-      text: '剑指Offer',
-      link:"/",
-      children: [
+      children:[
         { text: '「LeetCode」剑指Offer-03数组中重复的数字⚡️', link: '/coding-interviews/「LeetCode」剑指Offer-03数组中重复的数字⚡️' },
         { text: '「LeetCode」剑指Offer-04二维数组中的查找⚡️', link: '/coding-interviews/「LeetCode」剑指Offer-04二维数组中的查找⚡️' },
         { text: '「LeetCode」剑指Offer-05替代空格⚡️', link: '/coding-interviews/「LeetCode」剑指Offer-05替代空格⚡️' },
         { text: '「LeetCode」剑指Offer-06从尾到头打印链表⚡️', link: '/coding-interviews/「LeetCode」剑指Offer-06从尾到头打印链表⚡️' },
+        { text: '「LeetCode」剑指Offer-07重建二叉树⚡️', link: '/coding-interviews/「LeetCode」剑指Offer-07重建二叉树⚡️' },
       ]
     },
     {
       text: '链表',
-      children: []
+      children:[
+
+      ]
     }
   ]
 }
