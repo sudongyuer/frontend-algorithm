@@ -50,9 +50,10 @@ function getArraySidebar() {
       ]
     },
     {
-      text: '链表',
+      text: '回溯算法',
       children:[
-
+        { text: '「LeetCode」39-组合总和⚡️', link: '/backtrack/「LeetCode」39-组合总和⚡️' },
+        { text: '「leetCode」17-电话号码的字母组合⚡️', link: '/backtrack/「leetCode」17-电话号码的字母组合⚡️' },
       ]
     }
   ]
