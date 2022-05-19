@@ -55,6 +55,12 @@ function getArraySidebar() {
         { text: '「LeetCode」39-组合总和⚡️', link: '/backtrack/「LeetCode」39-组合总和⚡️' },
         { text: '「leetCode」17-电话号码的字母组合⚡️', link: '/backtrack/「leetCode」17-电话号码的字母组合⚡️' },
       ]
+    },
+    {
+      text: '动态规划算法',
+      children:[
+        { text: '「LeetCode」62-不同路径⚡️', link: '/dynamic-programming/「LeetCode」62-不同路径⚡️' },
+      ]
     }
   ]
 }
