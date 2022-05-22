@@ -61,9 +61,9 @@ function getArraySidebar() {
       text: '动态规划算法',
       link:'/dynamic-programming/「LeetCode」62-不同路径⚡️',
       children:[
-        { text: '「LeetCode」62-不同路径⚡️', link: '/dynamic-programming/「LeetCode」62-不同路径⚡️' },
-        { text: '「LeetCode」198-打家劫舍⚡️', link: '/dynamic-programming/「LeetCode」198-打家劫舍⚡️' },
-        { text: '「LeetCode」213-打家劫舍⚡️||', link: '/dynamic-programming/「LeetCode」213-打家劫舍⚡️||' },
+        { text: '「LeetCode」62-不同路径⚡️', link: '/dynamic-programming/「LeetCode」62-不同路径⚡️'},
+        { text: '「LeetCode」198-打家劫舍⚡️', link: '/dynamic-programming/「LeetCode」198-打家劫舍⚡️'},
+        { text: '「LeetCode」213-打家劫舍⚡️||', link: '/dynamic-programming/「LeetCode」213-打家劫舍⚡️||'},
       ]
     }
   ]
